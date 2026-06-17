@@ -6,7 +6,7 @@ Unlike basic, low-level chat implementations that rely on unverified model assum
 
 🏗️ Technical Architecture & Data Flow
 The application divides cognitive responsibilities across specialized agent frameworks to maximize evaluation reliability and security bounds.
-
+```text
 [ User Request: Input City & Style ]
                         │
                         ▼
@@ -45,7 +45,7 @@ The application divides cognitive responsibilities across specialized agent fram
                         │
                         ▼
        [ Final Verified Recommendation Output ]
-
+```text
 1. The Context Layer (Module 1 Grounding)
 The Problem: Base language models hallucinate fashion inventories and regional climate profiles.
 
